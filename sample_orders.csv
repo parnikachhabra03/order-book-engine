@@ -1,0 +1,11 @@
+action,side,quantity,price,trader,ref
+NEW,BUY,100,99.50,alice,
+NEW,BUY,50,99.75,bob,
+NEW,SELL,80,100.25,carol,
+NEW,SELL,40,100.00,dan,
+NEW,BUY,30,100.00,erin,
+NEW,SELL,60,99.75,carol,
+CANCEL,,,,alice,1
+NEW,BUY,120,,frank,
+NEW,SELL,25,101.00,dan,
+NEW,BUY,10,99.90,erin,
